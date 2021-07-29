@@ -1,6 +1,9 @@
+
+<h1>About</h1>
+
 A batch file that installs Chocolatey and uses it to install packages from Cholocatey repository.
 
-Usage:
+<h1>Usage</h1>
 
 1. Go to https://community.chocolatey.org/packages and find your desired package (i.e. "google-chrome" from "choco install google-chrome")
 2. Put in packages.txt the name of the package (i.e. "google-chrome")
