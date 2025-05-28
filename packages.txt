@@ -1,22 +1,35 @@
 #JDKs
-adoptopenjdk8
-adoptopenjdk11
+# adoptopenjdk8
+EclipseAdoptium.Temurin.8.JDK
+# adoptopenjdk11
+EclipseAdoptium.Temurin.11.JDK
 
 #git
-git
-git-cola
+# git
+Git.Git
+# git-cola
+# NOT_FOUND git-cola
 
 #drivers
-geforce-experience
+# geforce-experience
+Nvidia.GeForceExperience
 
 #utilities
-7zip
-totalcommander
-geekuninstaller
-powertoys
-qbittorrent
-malwarebytes
+# 7zip
+7zip.7zip
+# totalcommander
+# NOT_FOUND totalcommander
+# geekuninstaller
+# NOT_FOUND geekuninstaller
+# powertoys
+Microsoft.PowerToys
+# qbittorrent
+qBittorrent.qBittorrent
+# malwarebytes
+Malwarebytes.Malwarebytes
 
 #fun
-vlc
-steam-client
+# vlc
+VideoLAN.VLC
+# steam-client
+Valve.Steam

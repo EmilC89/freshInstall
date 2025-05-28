@@ -45,6 +45,5 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 ::::::::::::::::::::::::::::
 
 @powershell Set-ExecutionPolicy AllSigned
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
-for /F "eol=#" %%G in (packages.txt) do choco upgrade %%G -y
+for /F "eol=#" %%G in (packages.txt) do winget install --id %%G --accept-source-agreements --accept-package-agreements
